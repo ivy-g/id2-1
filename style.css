@@ -3,6 +3,8 @@ header {
     text-align: center;
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
+    position: fixed;
+    width: 100%;
 }
 
 .footer {
@@ -466,4 +468,23 @@ a:hover {
     display: block;
     width: 100%;
     height
+}
+
+#top-spacer {
+    height: 25rem;
+    width: 100%;
+    display block;
+    postion: relative;
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    #top-spacer {
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    #top-spacer {
+        height: 16rem;
+    }
 }
