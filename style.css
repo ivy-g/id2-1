@@ -413,7 +413,7 @@ a:hover {
 .links {
     width: 50%;
     float: left;
-    display: block;
+    display: inline-block;
     padding-top: 20px;
 }
 
