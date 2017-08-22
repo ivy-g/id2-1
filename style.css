@@ -470,7 +470,7 @@ a:hover {
     height
 }
 
-#top-spacer {
+.top-spacer {
     height: 25rem;
     width: 100%;
     display block;
@@ -478,13 +478,13 @@ a:hover {
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-    #top-spacer {
+    .top-spacer {
         height: 12rem;
     }
 }
 
 @media screen and (max-width: 42em) {
-    #top-spacer {
+    .top-spacer {
         height: 16rem;
     }
 }
