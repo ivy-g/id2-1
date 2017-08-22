@@ -5,6 +5,18 @@ header {
     background-image: linear-gradient(120deg, #155799, #159957);
 }
 
+.footer {
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    left: 0;
+    right: 0;
+    padding: 2rem 6rem;
+}
+
 @media screen and (min-width: 64em) {
     header {
         padding: 5rem 6rem;
@@ -47,10 +59,17 @@ h1 {
 body {
     margin: 0;
     padding: 0;
+    position: relative;
+    height: 100%
 }
 
 * {
     box-sizing: border-box;
+}
+
+i {
+    font-size: 38px;
+    padding: 0 20px 0 20px;
 }
 
 body {
@@ -435,7 +454,7 @@ a:hover {
     height: 30px;
     display: block;
     width: 100%;
-   clear: both;
+    clear: both;
 }
 
 .row {
